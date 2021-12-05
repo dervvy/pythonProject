@@ -8,13 +8,13 @@ a = ['x'] * n
 
 print('Заполнение списка а:')
 i = 0
-ak = 0
 while i != n:
     a[i] = float(input('Введите число: '))
     i += 1
 
 i = 0
 k = abs(a[i] - r)
+ak = a[i]
 while i != n:  # рассчет значений |AK - R|
     if abs(a[i] - r) < k:
         k = abs(a[i] - r)
