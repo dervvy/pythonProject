@@ -17,7 +17,7 @@ for key, value in t.items():
     if "молоко" in value and "печенье" in value and "сыр" in value:
         print('Магазин в котором можно приобрести одновременно молоко, печенье и сыр:', key)
 for key, value in t.items():
-    if "мясо" in value and "мясо" in value:
+    if "мясо" in value :
         print('Магазин в котором можно приобрести мясо :', key)
 for key, value in t.items():
     if "молоко" in value:
